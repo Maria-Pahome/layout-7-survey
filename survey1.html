@@ -1,0 +1,66 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Survey layout-1">
+    <meta name="kewwords" content="Survey Layout-1">
+    <meta name="author" content="Maria Pahome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/main.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="notification-img">
+            <div class="notification-text">Notifications Survey</div>    
+        </div>
+
+        <form>
+            <div class="container-upper-text">
+                <div>We're working on our notifications system to make our product work better.</div>
+                <div>The survey consists in several questions and usually takes 5-7 minutes to complete.</div>
+            </div>
+
+            <div class="email-wrapper">
+                <label for="emailInput">Enter your email:</label>
+                <input required class="validation-f" type="email" id="emailInput" placeholder="Your answer">
+           </div>
+            
+            <div class="board-question-a">
+                <div>Are you an admin or a member on our Border?</div>
+                <div>
+                    <input type="radio" id="Admin" name="answer" value="admin">
+                    <label for="Admin">Admin</label>
+                </div>
+                <div>
+                    <input type="radio" id="Member" name="answer" value="member">
+                    <label for="Member">Member</label>
+                </div>
+            </div>
+            
+           <div class="board-question-b">
+                <div>How do you collaborate in our Border?</div>
+                <div>
+                    <input type="radio" id="create" name="answer-b" value="create">
+                    <label for="create">Create and edit content</label>
+                </div>
+               <div>
+                    <input type="radio" id="comment" name="answer-b" value="comment">
+                    <label for="comment">Comment and leave comment</label>
+                </div>
+                <div>
+                    <input type="radio" id="review" name="answer-b" value="review">
+                    <label for="review">Just review created comment</label>
+                </div>
+                <div>
+                    <input type="radio" id="other" name="answer-b" value="other">
+                    <label for="other" class="other-text">Other:</label>
+                    <input  type="text" id="other" class="other-box validation-f" minlength="20">
+                </div>
+            </div>
+        </form>
+        
+        <button type="button" class="next-back-buttons">
+            <a href="survey2.html">Next</a>
+        </button>
+    </div>
+</body>

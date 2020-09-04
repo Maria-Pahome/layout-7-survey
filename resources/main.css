@@ -1,0 +1,238 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.notification-img {
+    background-image: url(../assets/step-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 240px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-step-b {
+    background-image: url(../assets/step-2.png);
+}
+
+.notification-text {
+    background-color: lightgray;
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+form {
+    height: 480px;
+    width: 600px;
+    background-color: white;
+    padding: 30px 0 0 20px;
+}
+
+form label, form div, .container-upper-text{
+    font-size: 12px;
+}
+
+.container-upper-text {
+    padding-bottom: 20px;
+}
+
+.container-upper-text div:last-child {
+    padding-top: 15px;
+}
+
+.validation-f:invalid:focus,
+.validation-f:required:invalid {
+    color: red;
+}
+
+.email-wrapper { 
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   height: 55px;
+   padding-top: 10px;
+}
+
+.email-wrapper label {
+    padding-bottom: 10px;
+}
+
+.email-wrapper input {
+   box-sizing: border-box;
+   border: solid grey 1px;
+   padding-left: 5px;
+   width: 100%;
+   height: 100%;
+   font-size: 12px;
+}
+
+.board-question-a div, .board-question-b div{
+    padding-top: 15px;
+}
+
+.board-question-a input, 
+.board-question-b input, 
+.board-question-d input {
+    margin: 0;
+    padding: 0;
+}
+
+.other-text {
+    padding-right: 15px;
+}
+
+.other-box {
+    width: 300px;
+    height: 23px;
+    border: none;
+    border-bottom: solid #afafaf 1px;
+}
+
+button {
+    padding: 15px;
+}
+
+.next-back-buttons {
+    display: inline-block;
+    border-radius: 12px;
+    width: 120px;
+    height: 40px;
+    border: none; 
+    background-color: #38daa1;
+}
+
+.next-back-buttons a, .bottom-buttons button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+}
+
+.bottom-buttons button:first-child{
+    background-color: #afafaf;
+}
+
+.bottom-buttons {
+    width: 620px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*- survey 2-main container*/
+
+.board-question-c {
+    width: 300px;
+}
+
+.boxes-score, .likely-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.boxes-score div {
+    width: 40px;
+    height: 40px;
+    background-color: #afafaf;
+}
+
+.boxes-score h1 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.boxes-score div:nth-of-type(3) {
+    background-color: #38daa1;
+}
+
+.likely-text div, .exp-text div {
+    font-size: 10px;
+}
+
+.board-question-d {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.answers-question-d {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.board-question-e {
+    padding-top: 25px;
+ }
+
+.board-question-e, .exp-text {
+    width: 400px;
+}
+
+.board-question-e-txt {
+    padding-bottom: 15px;
+}
+
+.board-question-e-container, .exp-text {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+.board-question-e-container div:nth-child(2) {
+    background-color: #38daa1;
+}
+
+.expectations-levels-wp {
+    background-color: #afafaf;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expectations-levels-wp img {
+    width: 60%;
+    height: auto;
+}
+.exp-text {
+    padding-top: 10px;
+}
+
+.exp-text div:nth-of-type(1) {
+    width: 100px;
+}
+
+.exp-text div:nth-of-type(2) {
+    width: 80px;
+    text-align: right;
+}
